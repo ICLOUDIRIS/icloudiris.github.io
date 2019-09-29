@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[auto open editor test]]></title>
+    <url>%2F2019%2F09%2F28%2Fauto-open-editor-test%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[我的博客]]></title>
+    <url>%2F2019%2F09%2F28%2F%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[1who you could be 信念坚定勇敢去实现 人生苦短 只走一遭 做些有意思的事情 什么对你来说是不可或缺的 最有价值的 就是尽可能的培养自己的品质 坚强的品格 追求卓越的习惯]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F09%2F28%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
