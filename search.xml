@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[someday]]></title>
+    <url>%2F2019%2F10%2F10%2Fsomeday%2F</url>
+    <content type="text"><![CDATA[1234* 乱文假数* 乱文假数* 乱文假数* 乱文假数]]></content>
+      <categories>
+        <category>杂谈随笔</category>
+      </categories>
+      <tags>
+        <tag>TED thoughts</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[auto open editor test]]></title>
     <url>%2F2019%2F09%2F28%2Fauto-open-editor-test%2F</url>
     <content type="text"></content>
@@ -10,7 +21,7 @@
     <url>%2F2019%2F09%2F28%2F%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[12345who you could be 做最好的自己信念坚定勇敢去实现 人生苦短 只走一遭 做些有意思的事情 什么对你来说是不可或缺的 最有价值的 就是尽可能的培养自己的品质 坚强的品格 追求卓越的习惯]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>杂谈随笔</category>
       </categories>
       <tags>
         <tag>TED thoughts</tag>
