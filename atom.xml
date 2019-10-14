@@ -5,9 +5,9 @@
   <subtitle>追逐爱与自由</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://icloudiris.top/"/>
   <updated>2019-10-13T07:09:14.255Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://icloudiris.top/</id>
   
   <author>
     <name>Icloudiris RNE</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>someday</title>
-    <link href="http://yoursite.com/2019/10/10/someday/"/>
-    <id>http://yoursite.com/2019/10/10/someday/</id>
+    <link href="http://icloudiris.top/2019/10/10/someday/"/>
+    <id>http://icloudiris.top/2019/10/10/someday/</id>
     <published>2019-10-09T23:49:06.000Z</published>
     <updated>2019-10-13T07:09:14.255Z</updated>
     
@@ -35,17 +35,17 @@
     </summary>
     
     
-      <category term="杂谈随笔" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88%E9%9A%8F%E7%AC%94/"/>
+      <category term="杂谈随笔" scheme="http://icloudiris.top/categories/%E6%9D%82%E8%B0%88%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="TED thoughts" scheme="http://yoursite.com/tags/TED-thoughts/"/>
+      <category term="TED thoughts" scheme="http://icloudiris.top/tags/TED-thoughts/"/>
     
   </entry>
   
   <entry>
     <title>auto open editor test</title>
-    <link href="http://yoursite.com/2019/09/28/auto-open-editor-test/"/>
-    <id>http://yoursite.com/2019/09/28/auto-open-editor-test/</id>
+    <link href="http://icloudiris.top/2019/09/28/auto-open-editor-test/"/>
+    <id>http://icloudiris.top/2019/09/28/auto-open-editor-test/</id>
     <published>2019-09-28T10:05:29.000Z</published>
     <updated>2019-09-28T10:05:29.300Z</updated>
     
@@ -59,8 +59,8 @@
   
   <entry>
     <title>我的博客</title>
-    <link href="http://yoursite.com/2019/09/28/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2019/09/28/我的博客/</id>
+    <link href="http://icloudiris.top/2019/09/28/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://icloudiris.top/2019/09/28/我的博客/</id>
     <published>2019-09-28T09:12:40.000Z</published>
     <updated>2019-10-09T23:54:00.027Z</updated>
     
@@ -76,17 +76,17 @@
     </summary>
     
     
-      <category term="杂谈随笔" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88%E9%9A%8F%E7%AC%94/"/>
+      <category term="杂谈随笔" scheme="http://icloudiris.top/categories/%E6%9D%82%E8%B0%88%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="TED thoughts" scheme="http://yoursite.com/tags/TED-thoughts/"/>
+      <category term="TED thoughts" scheme="http://icloudiris.top/tags/TED-thoughts/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/09/28/hello-world/"/>
-    <id>http://yoursite.com/2019/09/28/hello-world/</id>
+    <link href="http://icloudiris.top/2019/09/28/hello-world/"/>
+    <id>http://icloudiris.top/2019/09/28/hello-world/</id>
     <published>2019-09-28T03:56:36.711Z</published>
     <updated>2019-09-28T03:56:36.712Z</updated>
     
