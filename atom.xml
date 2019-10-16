@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://icloudiris.top/"/>
-  <updated>2019-10-16T03:16:29.160Z</updated>
+  <updated>2019-10-16T15:13:34.754Z</updated>
   <id>http://icloudiris.top/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用markdown语法</title>
+    <link href="http://icloudiris.top/2019/10/16/%E5%B8%B8%E7%94%A8markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://icloudiris.top/2019/10/16/常用markdown语法/</id>
+    <published>2019-10-16T08:33:22.000Z</published>
+    <updated>2019-10-16T15:13:34.754Z</updated>
+    
+    <content type="html"><![CDATA[<p>前言<br>常用的markd语法记录 ，其实就是自己的工具书。</p><ul><li><p>标题  （以下三种可以混合使用）</p><ul><li><p>方式一</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></li><li><p>方式二  </p><p>一级标题<br>=<br>一级标题<br>-</p></li><li><p>方式三  （同方式一 还多写 # 感觉有点蠢 不知到什么时候会用上）</p><h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="一级标题-2"><a href="#一级标题-2" class="headerlink" title="一级标题"></a>一级标题</h2></li></ul></li></ul><hr><ul><li><p>列表</p><ul><li><p>无序列表</p><ul><li>香蕉</li><li>苹果</li><li>椰子</li><li>梨</li></ul></li><li><p>有序列表 （数值带英文点就行 能自动排序识别）</p><ol><li>列表1</li><li>列表2</li><li>列表3</li><li>d</li></ol></li></ul><hr></li><li><p>区块引用 （引用作为一个容器 里面放什么都行 比如说:标题）</p><ul><li>追求快乐、幸福、自由，这些都不是足够正确的人生态度，生活中总有你觉得不快乐、不幸福、不自由的时刻，<br>如果要追求，那么我想 应该想要成为好一点的自己。<blockquote><p>这是我说的        –by icloudiris</p></blockquote></li><li>两种方法<blockquote><p>方法一 为了展示方便 简写了某些地方的表达式</p></blockquote></li></ul></li></ul><p>还可以多级引用  好像可以无线添加下去</p><blockquote><p>一级引用</p><blockquote><p>二级引用</p><blockquote><blockquote><p>三级引用</p><blockquote><blockquote><p>三级引用</p><blockquote><p>三级引用</p></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote><hr><ul><li>风格线  （传说是华丽丽的 但简单朴素）<br>符号分别为 * - _（星号，减号，底线） 少说得三个 </li></ul><ol><li><hr></li><li><hr></li><li><hr></li></ol><ul><li>链接  （待补充完整）<ul><li>下记两种方式<br>空格+后面引号里的参数为title属性 可以省略<br>公式：[name]: <a href="http://icloudiris.top/about">http://icloudiris.top/about</a> “关于”</li></ul></li></ul><pre><code>* [我是链接](http://icloudiris.top)blog 地址</code></pre><hr><ul><li><p>图片 （对这种写法有疑惑的点 ）</p><p>  <a href="http://icloudiris.top/images/avatarWordArt.png">我是WordArt</a></p></li></ul><hr><ul><li><p>代码框<br>看实际情况 使用  如果单行或者少量代码 那么 使用反单引号</p><h4 id="第一种-单行用"><a href="#第一种-单行用" class="headerlink" title="第一种 单行用``"></a>第一种 单行用``</h4><p><code>&lt;div class= &quot;box&quot;&gt; hola &lt;div&gt; // zheshia</code></p><h4 id="第二种-单行用"><a href="#第二种-单行用" class="headerlink" title="第二种 单行用"></a>第二种 单行用<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> </span><br></pre></td></tr></table></figure></h4><div class="box"> hola <div><div class="box"> hola <div><div class="box"> hola <div>```</div></div></div></div></div></div></li><li><p>简易表格</p><ul><li><p>总结是每个单元都要隔开 表头要加横线隔开  单元和线之间有没有空格不影响 如果 表头字是竖着显示的 可以填充表格</p><table><thead><tr><th>铅笔</th><th>签字笔</th><th>水彩笔</th><th>钢笔</th></tr></thead><tbody><tr><td>3</td><td>2</td><td>1就看见了尽解开了解开了快了解</td><td>1只钢笔知道是哪里来的</td></tr></tbody></table></li></ul><hr></li><li><p>强调</p><ul><li><p>外面是两只星星*/_  没有空格 </p><p><em>我什么也不知道，我只是一只斜塔</em>  </p><p><em>我也只是一只斜塔，我也什么都不知道</em> </p></li></ul><hr></li><li><p>加粗  </p><ul><li><p>外面的星星<em>/_  加倍的话   *</em>字体加粗**  同样中间没有空格  </p><p><strong>我什么也不知道，我只是一只斜塔</strong> </p><p><strong>我也只是一只斜塔，我也什么都不知道</strong> </p></li></ul><hr></li><li><p>转义  </p><ul><li>有些符号有多个意思 用这个转义就是元本长什么样就什么样子</li><li>\</li><li>*</li><li>_</li><li>+</li><li>!</li></ul><hr></li><li><p>删除线</p><p><del>来呀 拿起笔 动手啊</del></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;前言&lt;br&gt;常用的markd语法记录 ，其实就是自己的工具书。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标题  （以下三种可以混合使用）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;方式一&lt;/p&gt;
+&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="tools" scheme="http://icloudiris.top/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一键部署代码到github与coding </title>
+    <link href="http://icloudiris.top/2019/10/16/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%B8%8Ecoding/"/>
+    <id>http://icloudiris.top/2019/10/16/一键部署代码到github与coding/</id>
+    <published>2019-10-16T08:29:30.000Z</published>
+    <updated>2019-10-16T08:30:01.365Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>目的</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;目的&lt;/li&gt;
+&lt;/ul&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="http://icloudiris.top/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>times</title>
@@ -92,7 +148,7 @@
     <link href="http://icloudiris.top/2019/09/28/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
     <id>http://icloudiris.top/2019/09/28/我的博客/</id>
     <published>2019-09-28T09:12:40.000Z</published>
-    <updated>2019-10-14T10:34:12.242Z</updated>
+    <updated>2019-10-16T08:25:55.845Z</updated>
     
     <content type="html"><![CDATA[<ul><li>常用markdown 语法规则</li><li></li><li>常用markdown 语法规则</li><li></li><li>常用markdown 语法规则</li><li></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> </span><br></pre></td></tr></table></figure> <!-- who you could be  做最好的自己   信念坚定勇敢去实现    人生苦短 只走一遭 做些有意思的事情    什么对你来说是不可或缺的 最有价值的    就是尽可能的培养自己的品质  坚强的品格 追求卓越的习惯 -->]]></content>
     
