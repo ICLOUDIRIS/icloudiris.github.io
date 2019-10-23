@@ -87,14 +87,14 @@
 </ol>
 <ul>
 <li>链接  （待补充完整）<ul>
-<li>下记两种方式<br>空格+后面引号里的参数为title属性 可以省略<br>公式：[name]: <a href="http://icloudiris.top/about">http://icloudiris.top/about</a> “关于”</li>
+<li>下记两种方式<br>空格+后面引号里的参数为title属性 可以省略<br>公式：[name]: <a href="http://icloudiris.top/about" target="_blank" rel="noopener">http://icloudiris.top/about</a> “关于”</li>
 </ul>
 </li>
 </ul>
 <pre><code>* [我是链接](http://icloudiris.top)blog 地址</code></pre><hr>
 <ul>
 <li><p>图片 （对这种写法有疑惑的点 ）</p>
-<p>  <a href="http://icloudiris.top/images/avatarWordArt.png">我是WordArt</a></p>
+<p>  <a href="http://icloudiris.top/images/avatarWordArt.png" target="_blank" rel="noopener">我是WordArt</a></p>
 </li>
 </ul>
 <hr>
