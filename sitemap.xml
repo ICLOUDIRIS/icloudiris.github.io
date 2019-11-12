@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.icloudiris.top/2019/11/01/ssh/</loc>
+    
+    <lastmod>2019-11-12T02:41:45.459Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.icloudiris.top/2019/10/16/%E5%B8%B8%E7%94%A8git%E5%91%BD%E4%BB%A4/</loc>
     
-    <lastmod>2019-11-12T01:53:09.779Z</lastmod>
+    <lastmod>2019-11-12T01:57:26.682Z</lastmod>
     
   </url>
   
@@ -37,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://www.icloudiris.top/2019/10/16/ssh/</loc>
-    
-    <lastmod>2019-10-16T02:10:06.392Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.icloudiris.top/2019/10/10/someday/</loc>
     
     <lastmod>2019-10-14T10:31:57.362Z</lastmod>
@@ -68,13 +68,6 @@
     <loc>http://www.icloudiris.top/tags/index.html</loc>
     
     <lastmod>2019-09-29T06:00:47.369Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.icloudiris.top/2019/09/28/auto-open-editor-test/</loc>
-    
-    <lastmod>2019-09-28T10:05:29.300Z</lastmod>
     
   </url>
   

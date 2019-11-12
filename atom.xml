@@ -43,6 +43,28 @@
   </entry>
   
   <entry>
+    <title>git使用ssh更新代碼</title>
+    <link href="http://www.icloudiris.top/2019/11/01/ssh/"/>
+    <id>http://www.icloudiris.top/2019/11/01/ssh/</id>
+    <published>2019-11-01T02:09:26.000Z</published>
+    <updated>2019-11-12T02:41:45.459Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="git使用ssh更新代碼的好處"><a href="#git使用ssh更新代碼的好處" class="headerlink" title="git使用ssh更新代碼的好處"></a>git使用ssh更新代碼的好處</h2><p>  git使用https协议，每次pull,push都要输入密码，使用git协议，使用ssh秘钥，可以省去每次输密码</p><h2 id="原理-ssh原理"><a href="#原理-ssh原理" class="headerlink" title="原理 ssh原理"></a>原理 ssh原理</h2><h2 id="前提準備工作"><a href="#前提準備工作" class="headerlink" title="前提準備工作"></a>前提準備工作</h2><pre><code>已經安裝好git</code></pre><h2 id="具體操作流程-分爲以下3大步驟"><a href="#具體操作流程-分爲以下3大步驟" class="headerlink" title="具體操作流程 分爲以下3大步驟"></a>具體操作流程 分爲以下3大步驟</h2><h3 id="生成ssh-公私鑰匙"><a href="#生成ssh-公私鑰匙" class="headerlink" title="生成ssh 公私鑰匙"></a>生成ssh 公私鑰匙</h3><pre><code>一、本地生成密钥对；</code></pre><h3 id="填入到git上"><a href="#填入到git上" class="headerlink" title="填入到git上"></a>填入到git上</h3><pre><code>二、设置github上的公钥；三、修改git的remote url为git协议。</code></pre><h3 id="上傳的運行的命令"><a href="#上傳的運行的命令" class="headerlink" title="上傳的運行的命令"></a>上傳的運行的命令</h3><h2 id="ssh-agent"><a href="#ssh-agent" class="headerlink" title="ssh-agent"></a>ssh-agent</h2><pre><code>使用多個ssh的情況,代理ssh-agent</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;git使用ssh更新代碼的好處&quot;&gt;&lt;a href=&quot;#git使用ssh更新代碼的好處&quot; class=&quot;headerlink&quot; title=&quot;git使用ssh更新代碼的好處&quot;&gt;&lt;/a&gt;git使用ssh更新代碼的好處&lt;/h2&gt;&lt;p&gt;  git使用https协议，每次p
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>常用markdown语法</title>
     <link href="http://www.icloudiris.top/2019/10/16/%E5%B8%B8%E7%94%A8markdown%E8%AF%AD%E6%B3%95/"/>
     <id>http://www.icloudiris.top/2019/10/16/常用markdown语法/</id>
@@ -103,7 +125,7 @@
     <link href="http://www.icloudiris.top/2019/10/16/%E5%B8%B8%E7%94%A8git%E5%91%BD%E4%BB%A4/"/>
     <id>http://www.icloudiris.top/2019/10/16/常用git命令/</id>
     <published>2019-10-16T03:16:29.000Z</published>
-    <updated>2019-11-12T01:53:09.779Z</updated>
+    <updated>2019-11-12T01:57:26.682Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><h2 id="版本控制工具"><a href="#版本控制工具" class="headerlink" title="版本控制工具"></a>版本控制工具</h2><h3 id="源代码管理工具-版本控制-的好处"><a href="#源代码管理工具-版本控制-的好处" class="headerlink" title="源代码管理工具(版本控制)的好处"></a>源代码管理工具(版本控制)的好处</h3><p>a、利于团队开发/多人协同开发</p><p>b、对于个人开发<br>    –&gt;对某个功能的修改操作</p><h3 id="版本控制工具的种类："><a href="#版本控制工具的种类：" class="headerlink" title="版本控制工具的种类："></a>版本控制工具的种类：</h3><ul><li>git(github)</li><li>svn</li><li>java：maven</li><li>.net：vss tfs</li></ul><h3 id="源代码管理工具按照功能划分："><a href="#源代码管理工具按照功能划分：" class="headerlink" title="源代码管理工具按照功能划分："></a>源代码管理工具按照功能划分：</h3><p>a、本地代码管理        –&gt;用于个人开发           –&gt;被淘汰<br>b、集中式源代码管理工具(svn)<br>c、分布式。。。。。。。(git)       –&gt;兼具了a+b的功能</p><h2 id="Git的使用"><a href="#Git的使用" class="headerlink" title="Git的使用"></a>Git的使用</h2><h3 id="通过git-init将当前文件夹进行初始化"><a href="#通过git-init将当前文件夹进行初始化" class="headerlink" title="通过git init将当前文件夹进行初始化"></a>通过git init将当前文件夹进行初始化</h3><pre><code>--&gt;一定要明确你要将哪个文件夹被git管理起来</code></pre><h3 id="git-status可以查看仓库中的文件状态"><a href="#git-status可以查看仓库中的文件状态" class="headerlink" title="git status可以查看仓库中的文件状态"></a>git status可以查看仓库中的文件状态</h3><ul><li><p>在往git仓库中添加文件的时候，这些刚添加的文件，状态是：未追踪(Untracked)</p></li><li><p>对于已经进入过暂存区的文件，文件的状态是：changes to be committed</p></li><li><p>对于已经进入过暂存区的文件，再次修改文件，文件的状态是：modified</p></li><li><p>ps：如果当前文件夹下面的某个文件夹是空的，不会显示在结果中</p></li></ul><h3 id="git-add-文件名–-gt-将指定的文件放到暂存区"><a href="#git-add-文件名–-gt-将指定的文件放到暂存区" class="headerlink" title="git add 文件名–&gt;将指定的文件放到暂存区"></a>git add 文件名–&gt;将指定的文件放到暂存区</h3><p>把文件放到暂存区之后，状态是：待提交(changes to be committed)</p><p>git add 指定目录–&gt;将指定目录下面的文件放到暂存区<br>    –&gt;ps：如果当前仓库的根目录（.git文件夹位于的目录） git add .将仓库下面的没有被提交到暂存区的代码放到暂存区</p><p>git add *   –&gt;将当前仓库中的所有的没有被提交到暂存区的代码放到暂存区</p><p>–&gt;git add命令不仅仅可以将新添加的文件放到暂存区，也可以将已修改的文件放到暂存区</p><h3 id="关于用户名和邮箱的配置"><a href="#关于用户名和邮箱的配置" class="headerlink" title="关于用户名和邮箱的配置"></a>关于用户名和邮箱的配置</h3><p>–&gt;如果从来没有过，在提交到本地主仓库之前不会有任何问题，但是git commit -m ‘我是备注信息’ 都会提示你没有配置过，如果没有配置过，是无法正常提交代码，报错信息类似：Please tell me who you are<br>–&gt;git config user.name xxx<br>–&gt;git config user.email <a href="mailto:xxx@qq.com" target="_blank" rel="noopener">xxx@qq.com</a><br>    –&gt;可以通过–global选项实现在本机一次配置多次使用</p><ul><li>ps：或则可以使用SSH来实现，这样也很方便</li><li>ps：也可以使用图形化界面 sourceTree，对小白极其友好 (非要説的話當然還是命令行可愛(●’◡’●))</li></ul><h3 id="git-push-服务器仓库的地址-https-master-–-gt-将本地主仓库中的代码上传到服务器中"><a href="#git-push-服务器仓库的地址-https-master-–-gt-将本地主仓库中的代码上传到服务器中" class="headerlink" title="git push 服务器仓库的地址(https) master   –&gt;将本地主仓库中的代码上传到服务器中"></a>git push 服务器仓库的地址(https) master   –&gt;将本地主仓库中的代码上传到服务器中</h3><p>git pull 服务器仓库地址 master –&gt;将服务器代码更新到本地(关联)</p><p>说明：<br>a、只有文件夹中有.git文件夹，仓库就一直有效，–&gt;一旦把.git文件夹删除，那么仓库就废了<br>b、git会忽略是所有的空文件夹<br>c、git管理的文件，不要轻易重命名文件<br>    –&gt;1.txt–&gt;2.txt这样的重命名操作将会被识别为：删除了1.txt，创建了2.txt</p><h2 id="输入github用户名和密码，如果看到：Authentication-failed，一定表示用户名和密码输入错误"><a href="#输入github用户名和密码，如果看到：Authentication-failed，一定表示用户名和密码输入错误" class="headerlink" title="输入github用户名和密码，如果看到：Authentication failed，一定表示用户名和密码输入错误"></a>输入github用户名和密码，如果看到：Authentication failed，一定表示用户名和密码输入错误</h2><h2 id="2个场景："><a href="#2个场景：" class="headerlink" title="2个场景："></a>2个场景：</h2><h3 id="服务器仓库是空仓库"><a href="#服务器仓库是空仓库" class="headerlink" title="服务器仓库是空仓库"></a>服务器仓库是空仓库</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">touch 1.txt</span><br><span class="line">git add 1.txt</span><br><span class="line">git commit -m 提交了1.txt</span><br><span class="line">git push 服务器仓库地址 master</span><br></pre></td></tr></table></figure><h3 id="服务器仓库是非空仓库"><a href="#服务器仓库是非空仓库" class="headerlink" title="服务器仓库是非空仓库"></a>服务器仓库是非空仓库</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone 服务器仓库地址</span><br><span class="line">cd 文件夹</span><br><span class="line">git add 2.txt</span><br><span class="line">git commit -m 创建了2.txt</span><br><span class="line">git push 服务器仓库地址 master</span><br></pre></td></tr></table></figure><h3 id="基本够用-不够的话看-Git远程操作详解"><a href="#基本够用-不够的话看-Git远程操作详解" class="headerlink" title="基本够用 不够的话看 Git远程操作详解"></a>基本够用 不够的话看 <a href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" target="_blank" rel="noopener">Git远程操作详解</a></h3>]]></content>
     
@@ -119,21 +141,6 @@
     
     
       <category term="git" scheme="http://www.icloudiris.top/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ssh</title>
-    <link href="http://www.icloudiris.top/2019/10/16/ssh/"/>
-    <id>http://www.icloudiris.top/2019/10/16/ssh/</id>
-    <published>2019-10-16T02:09:26.000Z</published>
-    <updated>2019-10-16T02:10:06.392Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
     
   </entry>
   
@@ -160,21 +167,6 @@
     
     
       <category term="TED thoughts" scheme="http://www.icloudiris.top/tags/TED-thoughts/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>auto open editor test</title>
-    <link href="http://www.icloudiris.top/2019/09/28/auto-open-editor-test/"/>
-    <id>http://www.icloudiris.top/2019/09/28/auto-open-editor-test/</id>
-    <published>2019-09-28T10:05:29.000Z</published>
-    <updated>2019-09-28T10:05:29.300Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
     
   </entry>
   
